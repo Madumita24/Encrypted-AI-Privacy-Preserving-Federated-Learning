@@ -4,6 +4,7 @@ import tensorflow as tf
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
+import os 
 
 def load_client_data(csv_path):
     df = pd.read_csv(csv_path)
@@ -46,7 +47,8 @@ class FederatedClient(fl.client.NumPyClient):
         return loss, len(self.x_train), {"accuracy": float(accuracy)}
 
 def main():
-    csv_path = "../data/Region_C.csv"  # Replace with your client file
+    # csv_path = "../data/Region_C.csv"  # Replace with your client file
+    csv_path = os.path.join(os.path.dirname(__file__), "..", "data", "Region_C.csv")
     x, y = load_client_data(csv_path)
     model = create_model(x.shape[1])
     client = FederatedClient(model, (x, y))
