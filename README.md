@@ -44,8 +44,6 @@ This section showcases how the federated model performed during training, compar
 
 ### ✅ Federated vs Centralized Accuracy
 
-![Accuracy Comparison](visualizations/federated_vs_centralized_accuracy.png)
-
 
 **Interpretation:**
 
@@ -57,7 +55,6 @@ This section showcases how the federated model performed during training, compar
 
 ### ✅ Federated Loss Drop-off
 
-![Loss per Round](visualizations/federated_loss_plot.png)
 
 **Interpretation:**
 
