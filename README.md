@@ -44,7 +44,7 @@ This section showcases how the federated model performed during training, compar
 
 ### ✅ Federated vs Centralized Accuracy
 
-![Accuracy Comparison](visualizations/federated_vs_centralized_accuracy.png)
+![Accuracy Comparison](https://github.com/Madumita24/Encrypted-AI-Privacy-Preserving-Federated-Learning/blob/main/visualizations/federated_vs_centralized_accuracy.png)
 
 **Interpretation:**
 
