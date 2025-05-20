@@ -34,6 +34,7 @@ This project simulates a real-world federated learning setup for detecting suspi
          |                |                |                  |                |
     Region_A         Region_B         Region_C         Region_D         Region_E
     client.py        client.py        client.py        client.py        client.py
+```
 
 
 ## 📈 Visualizations
@@ -44,6 +45,7 @@ This section showcases how the federated model performed during training, compar
 
 ### ✅ Federated vs Centralized Accuracy
 
+![Accuracy Comparison](visualizations/federated_vs_centralized_accuracy.png)
 
 **Interpretation:**
 
@@ -55,6 +57,7 @@ This section showcases how the federated model performed during training, compar
 
 ### ✅ Federated Loss Drop-off
 
+![Loss per Round](visualizations/federated_loss_plot.png)
 
 **Interpretation:**
 
